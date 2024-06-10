@@ -1,0 +1,34 @@
+
+<%- include ('./partials/navbar') %>
+<div class="container">
+    <br>
+    <h3 class="display-5">Dashboard</h3>
+    <p style="font-size: 0.2in">Welcome <strong><%= name %></strong>!</p>
+    <br>
+    <div class="card text-left">
+      <div class="card-body">
+        <h4 class="card-title" style="text-decoration: underline">Nodejs App:</h4>
+        <p class="card-text">Nodejs App for authentication and login using passport. Which uses:</p>
+        <ol>
+            <li>Nodejs</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Passport</li>
+            <li>bcrypt password</li>
+        </ol>
+        <p class="card-text">And many more libraries. So, we used this login panel and authentication to apply it on a <strong>CRUD</strong> app</p>
+        <p class="card-text">
+            Each new idea i can extend to a branch then pull request it. Or Just make it simple like this:
+            <ul>
+                <li>Let the original <strong>LOGIN</strong> as Master branch.</li>
+                <li>Make branch for each new Functionality.</li>
+                <li>I don't have to pull request it to the master.</li>
+                <li>Let each function on its own branch.</li>
+            </ul>
+            And so i can extend the login panel to each new project within another branch.
+        </p>
+      </div>
+    </div>
+    <br>
+</div>
+<%- include ('./partials/footer') %>
